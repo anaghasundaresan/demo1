@@ -1,0 +1,8 @@
+.container h1{
+    float:none;
+    text-align: center;
+}
+.container ul,.container ul li{float:none;}
+#home-info.info-img{display:none;}
+.container ul li a{padding: 5px;
+border-bottom: #444 dotted 1px;}

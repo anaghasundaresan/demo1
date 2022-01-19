@@ -1,0 +1,59 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"content="width=device_width,intial_scale=1.0">
+        <meta http_equiv="X-UA-compatiable"content="ie=edge">
+        <style>
+            .item{
+                padding:3rem;
+                border:yellow 1px solid;
+                background:pink;
+                font-size: 1.3rem;
+                font-weight: bold;
+                text-align: center;
+            }
+            .item:first-child{
+                /*grid-row-start: 1;
+                grid-row-end: 4;*/
+                
+                grid-row: 1 /span 3;
+            }
+            .grid{
+                display: grid;
+                grid-template-columns:repeat(2,auto);
+                grid-gap: 1 rem;
+            }
+            @media(max-width:768px){
+                .grid{grid-template-columns: ;}}
+            main{
+                display: grid;
+              grid-template-rows: 2fr 1fr;
+                grid-gap:3rem;
+            }
+            </style>
+
+</head>
+<body>
+    <div class="grid">
+        <div class="item">item1</div>
+        <div class="item">item2</div>
+        <div class="item">item3</div>
+        <div class="item">item4</div>
+        <div class="item">item5</div>
+    </div>
+    <main>
+        <section>
+            <h3>Welcome to my site</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, facilis hic fugiat adipisci delectus at ex unde quod eius! Natus inventore tenetur deleniti consequatur culpa minima soluta repellat sequi, debitis officiis accusantium rem hic, architecto, a nihil eligendi quae voluptas aperiam. Laudantium eligendi minima molestias amet porro labore placeat eius! Velit mollitia totam consectetur a pariatur nesciunt necessitatibus eligendi molestias quidem nam ea magni, laboriosam amet voluptate dolore inventore quibusdam. Nemo sit perferendis illo, molestias ducimus distinctio sapiente aspernatur deleniti praesentium facere culpa. Explicabo ad asperiores iure. Aspernatur qui et perspiciatis? Ducimus tempore, iste sunt inventore illum facilis odit alias minus atque, reprehenderit ea impedit esse totam, repellat debitis dignissimos. Sint laboriosam minus debitis. Laudantium temporibus beatae libero animi eum eligendi possimus, vel adipisci deleniti ea sint, aut iste. Reprehenderit blanditiis veniam ipsum placeat modi molestias ipsam maxime quam laborum fuga quos, reiciendis unde vel quidem rem quisquam quia omnis atque deleniti commodi eaque? Explicabo dolor est hic at inventore distinctio eaque commodi, obcaecati ipsum nostrum nam, magnam debitis omnis harum neque fugit temporibus dignissimos quae, unde quasi. Nihil pariatur hic eius impedit quis eaque officia totam voluptate aperiam nulla optio maiores in atque, quae officiis cupiditate placeat expedita quidem.</p>
+        </section>
+        <aside><h3>
+            hello
+        </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam libero error eum mollitia maxime. Labore, sint. Provident at, fugiat, officia architecto, numquam tenetur delectus totam deleniti nihil quam ut quae harum neque rem voluptatibus dolore aspernatur? Sed corrupti sapiente, asperiores sunt consectetur aliquid libero reprehenderit a ex odit ipsum. Quas nam quae quaerat, repellat recusandae sed ex nulla sapiente voluptatibus eius impedit sint deserunt ipsum ducimus veniam soluta omnis tempore nesciunt voluptates enim facilis. Odit, deleniti. Beatae quidem libero nisi quibusdam id temporibus magnam reiciendis, sint hic aperiam, recusandae incidunt, provident placeat consequuntur ducimus ut deleniti unde rem ex neque facilis mollitia dolorum? Nostrum debitis ipsa libero modi sunt itaque quam suscipit hic ad architecto cum alias, corrupti commodi incidunt ex! Labore odit assumenda dolorum placeat id cupiditate facilis laboriosam vitae obcaecati, mollitia aperiam consequuntur voluptates exercitationem ullam? Eos numquam maiores, provident temporibus quidem iure accusamus itaque, minus vel, ipsam adipisci in commodi cumque culpa doloribus laboriosam perspiciatis facere. Distinctio doloremque tempore totam aliquam? Aperiam nobis provident omnis ratione quasi accusamus reiciendis esse! Illum inventore repellat nulla sed tempora odio iusto, optio sequi labore aperiam explicabo veniam et repellendus enim quod a unde, maiores vero. Tenetur dignissimos architecto magnam quod.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quaerat maxime voluptates pariatur commodi harum doloribus enim accusantium fugit doloremque?</p>
+        </h3></aside>
+    </main>
+
+</body>
+</html>
